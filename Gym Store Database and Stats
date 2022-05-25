@@ -1,0 +1,25 @@
+-- Create a gym store database
+
+CREATE TABLE gymstore (id INTEGER PRIMARY KEY, name TEXT, price INTEGER, quantity INTEGER);
+
+INSERT INTO gymstore VALUES
+(1, "paralettes", 5.99, 80),
+(2, "resistance bands", 10.99, 55),
+(3, "weight belts", 23.99, 73),
+(4, "chalk", 1.99, 21),
+(5, "pull-up bars", 5.99, 64),
+(6, "gym bags", 10.99, 42),
+(7, "yoga blocks", 11.99, 31),
+(8, "yoga rugs", 14.99, 95),
+(9, "reusable water bottles", 6.99, 33),
+(10, "gym apparel", 12.99, 84),
+(11, " wrist bands", 4.99, 23),
+(12, "workout gloves", 7.99, 56),
+(13, "shake bottles", 14.99, 43),
+(14, "protein shake", 20.99, 96),
+(15, "preworkout powder", 12.99, 63);
+
+-- display database
+SELECT * FROM gymstore
+ORDER BY price asc;
+
